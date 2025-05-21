@@ -50,7 +50,7 @@ function showAlert(msg) {
   document.querySelector('#alert').innerHTML = msg;
 }
 
-const backendURL = 'https://alerta-do-tempo1-production.up.railway.app';
+const backendURL = 'https://web-production-9aea.up.railway.app/';
 
 async function buscarAlertas(cidade) {
   const resultado = document.getElementById('alertas-result');
