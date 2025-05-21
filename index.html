@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alerta do Tempo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="search">
+    <input type="text" id="city_name" placeholder="Digite o nome da cidade">
+    <button type="submit">Buscar</button>
+  </form>
+  <div id="alert"></div>
+  <div id="weather" class="hidden">
+    <h2 id="title"></h2>
+    <img id="temp_img" />
+    <p id="temp_value"></p>
+    <p id="temp_description"></p>
+    <p>Máx: <span id="temp_max"></span></p>
+    <p>Mín: <span id="temp_min"></span></p>
+    <p>Umidade: <span id="humidity"></span></p>
+    <p>Vento: <span id="wind"></span></p>
+  </div>
+  <div id="alertas-result"></div>
+  <div id="noticias-result"></div>
+  <script src="script.js"></script>
+</body>
+</html>
